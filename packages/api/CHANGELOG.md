@@ -1,5 +1,11 @@
 # Changelog
 
+## \[2.0.0-rc.6]
+
+### New Features
+
+- [`9014a3f17`](https://www.github.com/tauri-apps/tauri/commit/9014a3f1765ca406ea5c3e5224267a79c52cd53d) ([#11066](https://www.github.com/tauri-apps/tauri/pull/11066) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Add `WebviewWindow.clearAllBrowsingData` and `Webview.clearAllBrowsingData` to clear the webview browsing data.
+
 ## \[2.0.0-rc.5]
 
 ### New Features

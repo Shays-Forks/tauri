@@ -1,5 +1,15 @@
 # Changelog
 
+## \[2.0.1-rc.14]
+
+### New Features
+
+- [`f57a729cd`](https://www.github.com/tauri-apps/tauri/commit/f57a729cd8f7e10d8daf0b9d5b85f9c7ad530496) ([#11039](https://www.github.com/tauri-apps/tauri/pull/11039) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Add `upgradeCode` in `wix` configuration to set an upgrade code for your MSI installer. This is recommended to be set if you plan to change your `productName`.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-rc.13`
+
 ## \[2.0.1-rc.13]
 
 ### Dependencies

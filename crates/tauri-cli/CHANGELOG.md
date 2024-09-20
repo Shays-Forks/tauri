@@ -1,5 +1,25 @@
 # Changelog
 
+## \[2.0.0-rc.17]
+
+### New Features
+
+- [`f57a729cd`](https://www.github.com/tauri-apps/tauri/commit/f57a729cd8f7e10d8daf0b9d5b85f9c7ad530496) ([#11039](https://www.github.com/tauri-apps/tauri/pull/11039) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Add `tauri inspect wix-upgrade-code` to print default Upgrade Code for your MSI installer derived from `productName`.
+
+### Enhancements
+
+- [`67b8a9a17`](https://www.github.com/tauri-apps/tauri/commit/67b8a9a17a0315ccba681a646678dc1922f5ebf2) ([#10940](https://www.github.com/tauri-apps/tauri/pull/10940) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Generate `.sig` signature files for installers and bundles when `createUpdaterArtifacts` is set to `v1Compatible`
+
+### Bug Fixes
+
+- [`62b52f60a`](https://www.github.com/tauri-apps/tauri/commit/62b52f60a22ef84c4a2a2d9e662038b49f58e16c) ([#11064](https://www.github.com/tauri-apps/tauri/pull/11064) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Fix `tauri add` failing to add NPM depenency with `npm` package manager.
+- [`b88e22a5f`](https://www.github.com/tauri-apps/tauri/commit/b88e22a5fe4e2e4376d6cad64d1e74d104ca8927) ([#11063](https://www.github.com/tauri-apps/tauri/pull/11063) by [@FabianLars](https://www.github.com/tauri-apps/tauri/../../FabianLars)) The cli now only sets the iOS deployment target environment variable when building for iOS.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-rc.13`
+- Upgraded to `tauri-bundler@2.0.1-rc.14`
+
 ## \[2.0.0-rc.16]
 
 ### New Features

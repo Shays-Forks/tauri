@@ -1,5 +1,21 @@
 # Changelog
 
+## \[2.0.0-rc.16]
+
+### New Features
+
+- [`a247170e1`](https://www.github.com/tauri-apps/tauri/commit/a247170e1f620a9b012274b11cfe51e90327d6e9) ([#11056](https://www.github.com/tauri-apps/tauri/pull/11056) by [@SpikeHD](https://www.github.com/tauri-apps/tauri/../../SpikeHD)) Expose the ability to enabled browser extensions in WebView2 on Windows.
+- [`9014a3f17`](https://www.github.com/tauri-apps/tauri/commit/9014a3f1765ca406ea5c3e5224267a79c52cd53d) ([#11066](https://www.github.com/tauri-apps/tauri/pull/11066) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Add `WebviewWindow::clear_all_browsing_data` and `Webview::clear_all_browsing_data` to clear the webview browsing data.
+- [`0ddfc59d6`](https://www.github.com/tauri-apps/tauri/commit/0ddfc59d6785e3b6a85a674a2f80d4c0affd2898) ([#11071](https://www.github.com/tauri-apps/tauri/pull/11071) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Add `Manager::unmanage` to remove previously managed state.
+
+### Dependencies
+
+- Upgraded to `tauri-runtime-wry@2.0.0-rc.14`
+- Upgraded to `tauri-runtime@2.0.0-rc.13`
+- Upgraded to `tauri-utils@2.0.0-rc.13`
+- Upgraded to `tauri-macros@2.0.0-rc.12`
+- Upgraded to `tauri-build@2.0.0-rc.13`
+
 ## \[2.0.0-rc.15]
 
 ### New Features
